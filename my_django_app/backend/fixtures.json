@@ -1,0 +1,196 @@
+[
+{
+  "model": "artwork.artist",
+  "pk": 1,
+  "fields": {
+    "name": "Leonardo da Vinci",
+    "nationality": "Italian",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/440px-Francesco_Melzi_-_Portrait_of_Leonardo.png"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 2,
+  "fields": {
+    "name": "Michelangelo",
+    "nationality": "Italian",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/440px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 3,
+  "fields": {
+    "name": "Claude Monet",
+    "nationality": "French",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/440px-Claude_Monet_1899_Nadar_crop.jpg"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 4,
+  "fields": {
+    "name": "\u00c9douard Manet",
+    "nationality": "French",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg/440px-%C3%89douard_Manet%2C_en_buste%2C_de_face_-_Nadar.jpg"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 5,
+  "fields": {
+    "name": "Vincent van Gogh",
+    "nationality": "Dutch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/440px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 6,
+  "fields": {
+    "name": "Johannes Vermeer",
+    "nationality": "Dutch",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/400px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+  }
+},
+{
+  "model": "artwork.artist",
+  "pk": 7,
+  "fields": {
+    "name": "Eug\u00e8ne Delacroix",
+    "nationality": "French",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/F%C3%A9lix_Nadar_1820-1910_portraits_Eug%C3%A8ne_Delacroix_restored.jpg/440px-F%C3%A9lix_Nadar_1820-1910_portraits_Eug%C3%A8ne_Delacroix_restored.jpg"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 1,
+  "fields": {
+    "name": "Romanticism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 2,
+  "fields": {
+    "name": "Post-Impressionism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 3,
+  "fields": {
+    "name": "Neo-Impressionism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 4,
+  "fields": {
+    "name": "Realism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 5,
+  "fields": {
+    "name": "Modern art"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 6,
+  "fields": {
+    "name": "Ancient Classical art"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 7,
+  "fields": {
+    "name": "Medieval art"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 8,
+  "fields": {
+    "name": "Renaissance"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 9,
+  "fields": {
+    "name": "Neoclassicism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 10,
+  "fields": {
+    "name": "Contemporary art"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 11,
+  "fields": {
+    "name": "Impressionism"
+  }
+},
+{
+  "model": "artwork.period",
+  "pk": 12,
+  "fields": {
+    "name": "Expressionism"
+  }
+},
+{
+  "model": "artwork.art",
+  "pk": 1,
+  "fields": {
+    "name": "The Starry Night",
+    "created": 1889,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/600px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "location": "The Museum of Modern Art",
+    "artist": 5,
+    "user": 1,
+    "period": [
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "artwork.art",
+  "pk": 2,
+  "fields": {
+    "name": "Mona Lisa",
+    "created": 1503,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/600px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "location": "Louvre Museum",
+    "artist": 1,
+    "user": 1,
+    "period": [
+      8
+    ]
+  }
+},
+{
+  "model": "artwork.art",
+  "pk": 3,
+  "fields": {
+    "name": "A Bar at the Folies-Berg\u00e8re",
+    "created": 1882,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Un_bar_aux_Folies-Berg%C3%A8re_d%27E._Manet_%28Fondation_Vuitton%2C_Paris%29_%2833539037428%29.jpg/600px-Un_bar_aux_Folies-Berg%C3%A8re_d%27E._Manet_%28Fondation_Vuitton%2C_Paris%29_%2833539037428%29.jpg",
+    "location": "The Courtauld Gallery",
+    "artist": 4,
+    "user": 1,
+    "period": [
+      5,
+      11
+    ]
+  }
+}
+]

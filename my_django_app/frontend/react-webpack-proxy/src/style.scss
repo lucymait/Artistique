@@ -1,0 +1,83 @@
+html, body {
+  height: 100vh;
+  // margin-top: 50px;
+} 
+
+.hero-body.hero {
+  background-image: url('https://mfg-stadelmann.ch/wp-content/uploads/2017/04/cropped-Pinsel_shutterstock_383090554_tn.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-body.home {
+  background-image: url('https://www.tomswallpapers.com/large/201706/102991.jpg');
+  background-size: cover;
+}
+
+.homepage-text {
+  color: white;
+  font-size: 80px;
+  background-color: black !important;
+  opacity: 0.6 !important;
+}
+.title-hero {
+  align-self: center;
+}
+
+img.art-image {
+  height: 400px;
+  width: 380px;
+}
+
+.container.register {
+  padding-top: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  padding-left: 400px;
+}
+
+.container.login {
+  padding-top: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  padding-left: 400px;
+}
+
+h1.title.register {
+  padding-left: 170px !important;
+}
+
+h1.title.login {
+  padding-left: 170px !important;
+}
+
+.input {
+  width: 500px;
+  }
+
+.button.is-success {
+    border-radius: 20px;
+    width: 500px;
+  }
+
+.button.is-link {
+    border-radius: 20px;
+    width: 500px;
+  }
+
+.navbar {
+  background-color: black;
+  color: white !important;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.button.is-normal {
+  background-color: black;
+}
